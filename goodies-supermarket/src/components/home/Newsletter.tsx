@@ -27,13 +27,13 @@ export default function Newsletter() {
               className="w-full rounded-lg border px-4 py-3 outline-none focus:border-green-600"
             />
 
-
-            <button
-              type="submit"
-              className="rounded-lg bg-green-600 px-6 py-3 text-white transition hover:bg-green-700"
-            >
-              Subscribe
-            </button>
+<button
+  type="submit"
+  onClick={() => alert("Thank you for subscribing!")}
+  className="rounded-lg bg-green-600 px-6 py-3 text-white transition hover:bg-green-700"
+>
+  Subscribe
+</button>
 
           </form>
 
