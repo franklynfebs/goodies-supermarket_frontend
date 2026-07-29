@@ -21,7 +21,7 @@ export default function ProductCard({
         <img
           src={product.image}
           alt={product.name}
-          className="h-52 w-full object-cover transition duration-300 hover:scale-105"
+          className="h-40 w-full object-cover transition duration-300 hover:scale-105"
         />
 
         <div className="p-4">
@@ -34,7 +34,7 @@ export default function ProductCard({
           </p>
 
           <p className="mt-3 text-lg font-bold text-green-600">
-            ${product.price}
+            Le{product.price}
           </p>
         </div>
       </Link>

@@ -28,7 +28,7 @@ export default function ProductDetails() {
           <img
             src={product.image}
             alt={product.name}
-            className="h-48 w-full rounded-lg object-cover transition duration-300 hover:scale-105"
+            className="h-65 w-full rounded-lg object-cover transition duration-300 hover:scale-105"
           />
 
           <div>
