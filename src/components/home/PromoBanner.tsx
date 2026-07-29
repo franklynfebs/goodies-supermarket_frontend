@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Container from "../common/Container";
 
 export default function PromoBanner() {
@@ -17,9 +18,12 @@ export default function PromoBanner() {
               and everyday products from Goodies Supermarket.
             </p>
 
-            <button className="mt-6 rounded-lg bg-white px-6 py-3 font-semibold text-green-600 transition hover:bg-gray-100">
-              View Offers
-            </button>
+          <Link
+  to="/offers"
+  className="mt-6 inline-block rounded-lg bg-white px-6 py-3 font-semibold text-green-600 transition hover:bg-gray-100"
+>
+  View Offers
+</Link>
 
           </div>
 

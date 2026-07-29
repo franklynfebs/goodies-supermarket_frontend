@@ -41,7 +41,7 @@ export default function ProductDetails() {
             </p>
 
             <p className="mt-6 text-3xl font-bold text-green-600">
-              ${product.price}
+              Le{product.price}
             </p>
 
             <p className="mt-6 text-gray-700">

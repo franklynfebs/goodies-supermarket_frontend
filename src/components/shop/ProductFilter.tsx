@@ -49,7 +49,7 @@ export default function ProductFilter({
         </label>
 
         <p className="mb-2 text-sm text-gray-600">
-          ${maxPrice}
+          Le{maxPrice}
         </p>
 
         <input

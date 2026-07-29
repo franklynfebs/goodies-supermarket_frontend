@@ -75,7 +75,7 @@ export default function Cart() {
                     </p>
 
                     <p className="mt-2 text-sm text-gray-500">
-                      $ {item.product.price.toFixed(2)} each
+                      Le {item.product.price.toFixed(2)} each
                     </p>
                   </div>
 
@@ -105,7 +105,7 @@ export default function Cart() {
                     </div>
 
                     <p className="mt-3 font-bold text-green-600">
-                      $
+                      Le
                       {(
                         item.product.price * item.quantity
                       ).toFixed(2)}
@@ -137,7 +137,7 @@ export default function Cart() {
               <div className="mt-3 flex justify-between">
                 <span>Subtotal</span>
                 <span className="font-semibold">
-                  ${subtotal.toFixed(2)}
+                  Le{subtotal.toFixed(2)}
                 </span>
               </div>
 
@@ -150,7 +150,7 @@ export default function Cart() {
 
               <div className="flex justify-between text-lg font-bold">
                 <span>Total</span>
-                <span>${subtotal.toFixed(2)}</span>
+                <span>Le{subtotal.toFixed(2)}</span>
               </div>
 
               <Link

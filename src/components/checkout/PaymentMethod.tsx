@@ -22,7 +22,7 @@ export default function PaymentMethod() {
             name="payment"
           />
 
-          Credit / Debit Card
+         Visa Card / MasterCard
         </label>
 
         <label className="flex items-center gap-3">
@@ -32,6 +32,24 @@ export default function PaymentMethod() {
           />
 
           Mobile Money
+        </label>
+
+         <label className="flex items-center gap-3">
+          <input
+            type="radio"
+            name="payment"
+          />
+
+          PayPal
+        </label>
+
+         <label className="flex items-center gap-3">
+          <input
+            type="radio"
+            name="payment"
+          />
+
+          Stripe
         </label>
       </div>
     </div>
